@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GoruntuIslemleri.TekFotoYuklePage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="10" Padding="10">
+                <Button x:Name="fotoCekButton" Clicked="fotoCekButton_Clicked" Text="Fotograf Çek"/>
+                <Button x:Name="fotoSecButton" Clicked="fotoSecButton_Clicked" Text="Fotograf Seç"/>
+                <Button x:Name="videoCekButton" Clicked="videoCekButton_Clicked" Text="Video Çek"/>
+                <Button x:Name="videoSecButton" Clicked="videoSecButton_Clicked" Text="Video Seç"/>
+
+                <Image x:Name="resimImage"/>
+                <Label x:Name="genislikLabel"/>
+                <Label x:Name="yükseklikLabel"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
